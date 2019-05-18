@@ -20,7 +20,7 @@ class Portfolios extends React.Component {
     return { posts: posts.splice(0, 10) };
   }
   renderPosts(posts) {
-    return posts.map(post => {
+    return posts.map((post, index) => {
       return (
         <li>
           <Link route={`/portfolio/${post.id}`}>
