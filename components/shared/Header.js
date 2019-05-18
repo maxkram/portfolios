@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 
+import "../../styles/main.scss";
+
 class Header extends React.Component {
   render() {
     // debugger;
@@ -10,6 +12,7 @@ class Header extends React.Component {
         <p>{title}</p>
         {this.props.title}
         <p className="customClass">Styled element</p>
+        <p className="customClassFromFile">Styled element from file</p>
         <Link href="/">
           <a style={{ fontSize: "20px" }}>Home</a>
         </Link>
