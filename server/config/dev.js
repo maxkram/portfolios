@@ -1,4 +1,3 @@
 module.exports = {
-  DB_URI:
-    "mongodb+srv://Test:testtest@cluster0-rv9eo.mongodb.net/test?retryWrites=true"
+  DB_URI: "mongodb://maxkram:Test2019!@ds157956.mlab.com:57956/portfolio"
 };
