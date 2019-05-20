@@ -29,7 +29,7 @@
               </a>
             </Link>
             <p className="post-meta">Posted by
-              <a href="#"> Filip Jerga </a>
+              <a href="#"> Max Kramer </a>
               {moment().format('LLLL')}</p>
           </div>
           <hr></hr>
@@ -45,7 +45,7 @@
               </a>
             </Link>
             <p className="post-meta">Posted by
-              <a href="#"> Filip Jerga </a>
+              <a href="#"> Max Kramer </a>
               {moment().format('LLLL')}</p>
           </div>
           <hr></hr>
@@ -61,7 +61,7 @@
               </a>
             </Link>
             <p className="post-meta">Posted by
-              <a href="#"> Filip Jerga </a>
+              <a href="#"> Max Kramer </a>
               {moment().format('LLLL')}</p>
           </div>
           <hr></hr>
@@ -103,7 +103,7 @@
                 </a>
               </li>
             </ul>
-            <p className="copyright text-muted">Copyright &copy; Filip Jerga 2018</p>
+            <p className="copyright text-muted">Copyright &copy; Max Kramer 2019</p>
           </div>
         </Row>
       </Container>
