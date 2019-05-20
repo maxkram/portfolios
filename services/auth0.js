@@ -11,7 +11,7 @@ class Auth0 {
   constructor() {
     this.auth0 = new auth0.WebAuth({
       domain: "maxkram.auth0.com",
-      clientID: "3ShmnWBfPk9MI8tV6SQmnOdkY7tlgoKF",
+      clientID: CLIENT_ID,
       redirectUri: `${process.env.BASE_URL}/callback`,
       responseType: "token id_token",
       scope: "openid profile"

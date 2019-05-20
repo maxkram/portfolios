@@ -12,14 +12,14 @@ const BaseLayout = props => {
     cannonical
   } = props;
   const headerType = props.headerType || "default";
-  const title = props.title || "Filip Jerga Portfolio";
+  const title = props.title || "Max Kramer Portfolio";
   return (
     <React.Fragment>
       <Head>
         <title>{title}</title>
         <meta
           name="description"
-          content="My name is Max Kramer and I am an experienced web developer. I have a Master's degrees in Social Sciences and business administration and several years of experience working on a wide range of technologies and projects from Python and R scripts to process quantative research results in social and media poll to modern web applications in React. "
+          content="My name is Max Kramer and I am a web developer. I have a Master's degrees in Social Sciences and several years of experience working on a wide range of technologies and projects from coding for research to modern web applications in React."
         />
         <meta
           name="keywords"
@@ -34,7 +34,7 @@ const BaseLayout = props => {
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
-          content="My name is Max Kramer and I am an experienced web developer."
+          content="My name is Max Kramer and I am a web developer."
         />
         <link
           href="https://fonts.googleapis.com/css?family=Montserrat:400,700"

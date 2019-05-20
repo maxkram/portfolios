@@ -21,16 +21,12 @@ class About extends React.Component {
             </Col>
             <Col md="6">
               <div className="fadein">
+                <p>My name is Max Kramer and I am a web developer. </p>
                 <p>
-                  My name is Max Kramer and I am an experienced webdev and
-                  freelance developer.{" "}
-                </p>
-                <p>
-                  I have a Master's degrees in Social Science and Business
-                  Administration and several years of experience working on a
-                  wide range of technologies and projects from development for
-                  social and media researches to modern web applications in
-                  React.
+                  I have a Master's degree in Social Sciences and several years
+                  of experience working on a wide range of technologies and
+                  projects from coding for research to modern web applications
+                  in React.
                 </p>
               </div>
             </Col>

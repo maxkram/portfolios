@@ -62,7 +62,7 @@ class Index extends React.Component {
                       <img
                         alt="Guy programming welcome picture"
                         className="image"
-                        src="/static/images/section-1.png"
+                        src="/static/images/section-1.jpg"
                       />
                       <div className="shadow-custom">
                         <div className="shadow-inner"> </div>
@@ -70,16 +70,16 @@ class Index extends React.Component {
                     </div>
                     <div className="back">
                       <div className="hero-section-content">
-                        {/* <h2> Get Your Projects Done </h2> */}
-                        {/* <div className="hero-section-content-intro">
+                        <h2> Get Your Projects Done </h2>
+                        <div className="hero-section-content-intro">
                           Profesional and top quality service in web
                           development.
-                        </div> */}
+                        </div>
                       </div>
                       <img
-                        // alt="Guy programming welcome picture"
+                        alt="Guy programming welcome picture"
                         className="image"
-                        // src="/static/images/section-2.png"
+                        src="/static/images/section-2.jpg"
                       />
                       <div className="shadow-custom shadow-custom-2">
                         <div className="shadow-inner"> </div>
